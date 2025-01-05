@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Card</title>
+  <link rel="stylesheet" href="Sheet.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="search" value="Enter your city">
+      <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+    </div>
+    <img src="weather.jpg">
+    <div class="temp">
+      <div class="degNum">
+        0°c
+      </div>
+
+    </div>
+    <div class="cityName">
+      City Name
+    </div>
+    <div class="more">
+      <div class="humidty">
+        <i class="fa-solid fa-droplet" style="font-size: 5vmin;"></i>
+        <h3 id="humid">
+          0%
+        </h3>
+        <p>
+          humidty
+        </p>
+      </div>
+      <div class="windSpeed">
+        <i class="fa-solid fa-wind" style="font-size: 5vmin;"></i>
+        <h3 id="speed">
+          0km/h
+        </h3>
+        <p>
+          WindSpeed
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>

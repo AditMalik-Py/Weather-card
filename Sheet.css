@@ -1,0 +1,91 @@
+body {
+  background-color: #161616;
+  color: white;
+}
+@keyframes bgcolor {
+  0% {
+    background: linear-gradient(45deg,#9f85fc,#00bebc62,#00bebc62,#2ffc69);
+  }
+  25% {
+    background: linear-gradient(45deg,#00bebc62,#00bebc62,#2ffc69,#9f85fc);
+  }
+  50% {
+    background: linear-gradient(45deg,#00bebc62,#2ffc69,#9f85fc, #00bebc62);
+  }
+  75% {
+    background: linear-gradient(45deg,#2ffc69,#9f85fc,#00bebc62, #00bebc62)
+  }
+  100% {
+    background: linear-gradient(45deg,#9f85fc,#00bebc62,#00bebc62,#2ffc69);
+  }
+}
+.card {
+  margin: 0 auto;
+  height: 130vmin;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vmin;
+  background: linear-gradient(45deg,#9f85dc,#00bebc62,#00bebc62,#2fdc69);
+  border: none;
+  border-radius: 5.5vmin;
+  opacity: 0.9;
+  animation: bgcolor 1s cubic-bezier(0.1, -0.6, 0.2, 0) infinite;
+}
+
+
+input {
+  background-color: #fdfdfd;
+  padding: 3.5vmin;
+  padding-right: 39vmin;
+  border: none;
+  border-radius: 5.5vmin;
+  position: relative;
+  left: -1vmin;
+  font-size: 3vmin;
+}
+
+#searchIcon {
+  color: #000;
+  background-color: #f7f7f7;
+  height: 10.5vmin;
+  width: 10.5vmin;
+  border-radius: 5.5vmin;
+  text-align: center;
+  vertical-align: center;
+  position: relative;
+  top: -10.6vmin;
+  left: 75vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vmin;
+}
+img {
+  height: 25vmin;
+}
+.degNum {
+  font-size: 18vmin;
+}
+
+.cityName {
+  font-size: 7vmin;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20vmin;
+}
+
+.humidty {
+  margin-right: 23vmin;
+  text-align: center;
+  font-size: 4vmin;
+}
+
+.windSpeed {
+  margin-right: 3vmin;
+  text-align: center;
+  font-size: 4vmin;
+}
